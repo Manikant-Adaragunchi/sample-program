@@ -41,3 +41,18 @@ main()
         }
     }
 }
+void display()
+{
+    if(top>=0)
+    {
+        printf("\n The elements in STACK \n");
+        for(i=top; i>=0; i--)
+            printf("\n%d",stack[i]);
+        printf("\n Press Next Choice");
+    }
+    else
+    {
+        printf("\n The STACK is empty");
+    }
+   
+}
